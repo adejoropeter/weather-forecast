@@ -49,6 +49,7 @@ async function checkWeather(city) {
     document.querySelector(".error").style.display = "block";
     document.querySelector(".weather").innerHTML =
       '<img src="images/refresh.png" class="weather-icon error-img">';
+    document.querySelector(".error").innerHTML=error
   }
 }
 searchBtn.addEventListener("click", () => {
