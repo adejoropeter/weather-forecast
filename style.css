@@ -27,6 +27,9 @@ body {
     justify-content: space-between;
 }
 
+.weather{
+    padding-top: 10px;
+}
 .search input{
     border: 0;
     outline: 0;
